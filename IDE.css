@@ -1,0 +1,39 @@
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+  height: 100vh;
+}
+
+
+/* HAUT DE PAGE */
+
+header{
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: aqua;
+}
+
+/* Aligné les images */
+.headimg{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* taille image */
+.VShead{
+  height: 50px;
+}
+.atomhead{
+  height: 50px;
+}
+.WBhead{
+  height: 50px;
+}
