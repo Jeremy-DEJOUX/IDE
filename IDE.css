@@ -34,6 +34,27 @@ header{
 .atomhead{
   height: 50px;
 }
-.WBhead{
+.WShead{
   height: 50px;
+}
+
+
+/* MILIEU DE PAGE */
+
+.Titre_1{
+  text-align: center;
+}
+
+.IDE_1{
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Atomain{
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
