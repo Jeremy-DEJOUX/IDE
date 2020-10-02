@@ -7,17 +7,22 @@ html{
 body{
   margin: 0px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(Images/B.png) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
 }
 
 
 /* HAUT DE PAGE */
 
 header{
-  margin-top: 10px;
+  margin: 0px;
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: aqua;
 }
 
 /* Aligné les images */
@@ -26,35 +31,85 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+
 }
 /* taille image */
 .VShead{
   height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
 }
 .atomhead{
   height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
 }
 .WShead{
   height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
 }
 
-
+.headimg img:hover{
+  transform: scale(1.4);
+}
 /* MILIEU DE PAGE */
-
+main{
+  height: 100%
+}
 .Titre_1{
   text-align: center;
+  text-shadow: 3px 3px 5px black;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(209, 207, 208)
 }
 
 .IDE_1{
-  background-color: blueviolet;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 350px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.VSmain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232, 46, 56, 0.8);
+  width: 450px;
+  height: 250px;
+  color: rgb(209, 207, 208);
+}
+.WSmain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232, 46, 56, 0.8);
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  color: rgb(209, 207, 208);
 }
 
 .Atomain{
-  background-color: coral;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.Atomain_2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232, 46, 56, 0.8);
+  height: 250px;
+  width: 450px;
+  color: rgb(209, 207, 208);
+}
+
+
+
+/* BAS DE PAGE */
