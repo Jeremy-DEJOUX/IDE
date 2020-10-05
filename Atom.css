@@ -1,0 +1,64 @@
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(53, 51, 52);
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* HAUT DE PAGE */
+
+header{
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(88, 75, 79);
+}
+
+
+/* Aligné les images */
+.headimg{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+/* taille image */
+.VShead{
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
+}
+.atomhead{
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
+}
+.WShead{
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(62, 68, 70, 0.8);
+}
+
+.headimg img:hover{
+  transform: scale(1.4);
+}
+
+
+
+
+main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
