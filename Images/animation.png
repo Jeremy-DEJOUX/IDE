@@ -1,0 +1,47 @@
+.tet{
+  display: flex;
+}
+.img1 {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.img2{
+  height: 50px;
+  width: 50px;
+  padding-left: 30px;
+  margin: 0px;
+  animation-duration: 3s;
+  animation-name: gliss;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes glissement {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 100%;
+  }
+
+}
+
+@@keyframes gliss {
+  from{
+    margin-left: 0%;
+  }
+  to{
+    margin-left: 100%;
+  }
+}
+
+.img1{
+  transition-timing-function: linear;
+}
