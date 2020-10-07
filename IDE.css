@@ -32,7 +32,6 @@ header{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
 }
 /* taille image */
 .VShead{
@@ -50,6 +49,7 @@ header{
 
 .headimg img:hover{
   transform: scale(1.4);
+  transition: 400ms;
 }
 /* MILIEU DE PAGE */
 main{
